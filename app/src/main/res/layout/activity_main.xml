@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="MyBank"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hmpgmsg"
+        android:layout_width="350dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:text="Welcome to MyBank! \nTransfer money between multiple accounts."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hmpglogo"
+        app:layout_constraintVertical_bias="0.105" />
+
+
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="204dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#000000"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="View Accounts"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
