@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/bank"
-        android:label="@string/app_name"
-        android:roundIcon="@drawable/bank"
+        android:icon="@drawable/banklogo"
+        android:label="MY BANK"
+        android:roundIcon="@drawable/banklogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme_white">
 

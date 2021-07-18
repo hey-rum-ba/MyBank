@@ -10,7 +10,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/bank"
+        android:src="@drawable/banklogo"
         android:visibility="invisible"/>
 
     <TextView

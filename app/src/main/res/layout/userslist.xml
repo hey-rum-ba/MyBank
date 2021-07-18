@@ -25,7 +25,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginEnd="4dp"
             android:layout_marginBottom="4dp"
-            android:text="Customer Name :  "
+            android:text="User Name :  "
             android:textSize="18dp"
             android:textStyle="bold" />
 
